@@ -4,10 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Weather from "./Weather"
+import Me from './Me'
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <Me />
     <Weather />
   </React.StrictMode>,
   document.getElementById('root')
