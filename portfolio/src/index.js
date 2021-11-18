@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Weather from "./Weather"
+import Weather from "./weather/Weather"
 import Me from './Me'
 
 ReactDOM.render(
