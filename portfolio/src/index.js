@@ -3,14 +3,17 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+
 import Weather from "./weather/Weather"
 import Me from './me/Me'
+import Something from './something/Something'
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
     <Me />
     <Weather />
+    <Something />
   </React.StrictMode>,
   document.getElementById('root')
 );
